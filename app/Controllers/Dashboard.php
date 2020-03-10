@@ -4,9 +4,9 @@ class Dashboard extends BaseController
 {
     public function index()
     {
-        // echo view('layouts/header');
-        // echo view('layouts/footer');
-        echo view('welcome_message');
+        echo view('layouts/header');
+        echo view('dashboard');
+        echo view('layouts/footer');
         
     }
 
